@@ -69,7 +69,6 @@ begin
     elsif rising_edge(clk) then
       -- default pulses reset each cycle
       spend_fail_i  <= '0';
-\
 
       -- spend 5 for revive
       if revive_pulse = '1' then
